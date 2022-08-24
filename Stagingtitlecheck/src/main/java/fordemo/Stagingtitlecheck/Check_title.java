@@ -26,7 +26,7 @@ public class Check_title {
 	{
 		driver.get("https://www.alamy.com/");
 		String str=driver.getTitle();
-		Assert.assertEquals(str,"Get creative with stock photos and videos from Alamy");
+		Assert.assertEquals(str,"Get creative with stock photos and videos from Alamyyy");
 		System.out.println(str);
 		
 	}

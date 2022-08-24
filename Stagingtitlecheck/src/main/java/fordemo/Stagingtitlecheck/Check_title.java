@@ -24,9 +24,9 @@ public class Check_title {
 	@Test
 	public void check()
 	{
-		driver.get("http://3.111.53.55/");
+		driver.get("https://www.alamy.com/");
 		String str=driver.getTitle();
-		Assert.assertEquals(str,"Jenksinss");
+		Assert.assertEquals(str,"Get creative with stock photos and videos from Alamy");
 		System.out.println(str);
 		
 	}

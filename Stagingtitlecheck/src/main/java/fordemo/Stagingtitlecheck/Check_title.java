@@ -13,9 +13,9 @@ public class Check_title {
 	@BeforeTest
 	public void load()
 	{
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
-		driver = new ChromeDriver(options);
+		//ChromeOptions options = new ChromeOptions();
+		//options.addArguments("--headless");
+		driver = new ChromeDriver();
 	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Qbuser\\git\\repository\\Stagingtitlecheck\\chromedriver.exe");
 	    
 		

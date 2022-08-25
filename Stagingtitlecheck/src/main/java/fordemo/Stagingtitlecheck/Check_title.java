@@ -24,7 +24,7 @@ public class Check_title {
 	@Test
 	public void check()
 	{
-		driver.get("http://15.206.147.106/");
+		driver.get("http://13.127.151.180/");
 		String str=driver.getTitle();
 		Assert.assertEquals(str,"CDCI Demo");
 		//System.out.println(str);
